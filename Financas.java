@@ -28,7 +28,7 @@ class Financas {
 
         // Leitura dos registros de Despesas
         System.out.printf("\nLeitura de despesas\n\n");
-        for(int i = 0; i<5; i++) {
+        for(int i = 0; i<20; i++) {
             System.out.println("Despesa n. " + (i+1));
             despesas[i].readRegister();
             qtd_despesas++;
